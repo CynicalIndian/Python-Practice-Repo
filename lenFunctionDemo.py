@@ -1,0 +1,5 @@
+print('Hello, please enter some text.')
+userInput = input()
+print('Thank you, now we shall see how long this text is (this includes whitespaces)')
+strLen = len(userInput)
+print('The user string is '+(str(strLen))+' characters long')
